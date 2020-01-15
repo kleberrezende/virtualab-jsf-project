@@ -1,4 +1,4 @@
-/target
+*/target
 /bin
 /RemoteSystemsTempFiles
 /versões
@@ -43,3 +43,4 @@ validator-faces-config.NavData
 
 #jrebel
 rebel.xml
+/source/virtualab-jsf/target/
