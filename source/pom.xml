@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>br.com.virtualab</groupId>
+    <artifactId>virtualab-project</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <name>virtualab-project</name>
+    <url>http://www.virtualab.com.br</url>
+
+    <developers>
+        <developer>
+            <id>kleberrezende</id>
+            <name>Kleber Rezende</name>
+        </developer>
+    </developers>
+
+    <properties>
+        <project.name>nome</project.name>
+        <project.version>versao</project.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	    <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <hibernate.version>3.6.1.Final</hibernate.version>
+        <spring.version>3.0.6.RELEASE</spring.version>
+        <jsf.version>2.1.3</jsf.version>
+        <querydsl.version>3.4.2</querydsl.version>
+        <sl4j.version>1.6.1</sl4j.version>
+        <primefaces.version>5.3</primefaces.version>
+        <theme.version>1.0.10</theme.version>
+        <jasperreports-plugin.version>1.9</jasperreports-plugin.version>
+    </properties>
+
+    <repositories>
+        <repository>  
+            <id>prime-repo</id>
+            <name>PrimeFaces Maven Repository</name>
+            <url>http://repository.primefaces.org</url>
+            <layout>default</layout>
+        </repository>
+    </repositories>
+
+    <dependencies>
+    </dependencies>
+
+    <modules>
+        <module>virtualab</module>
+    </modules>
+</project>
