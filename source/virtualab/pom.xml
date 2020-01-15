@@ -5,10 +5,10 @@
 
     <modelVersion>4.0.0</modelVersion>
     <groupId>br.com.virtualab</groupId>
-    <artifactId>virtualab</artifactId>
+    <artifactId>virtualab-jsf</artifactId>
     <packaging>jar</packaging>
     <version>1.0-SNAPSHOT</version>
-    <name>virtualab</name>
+    <name>virtualab-jsf</name>
     <url>http://www.virtualab.com.br</url>
 
     <developers>
@@ -20,7 +20,7 @@
 
     <parent>
         <groupId>br.com.virtualab</groupId>
-        <artifactId>virtualab-project</artifactId>
+        <artifactId>virtualab-jsf-project</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 

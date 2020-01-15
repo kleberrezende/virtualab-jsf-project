@@ -5,10 +5,10 @@
 
     <modelVersion>4.0.0</modelVersion>
     <groupId>br.com.virtualab</groupId>
-    <artifactId>virtualab-project</artifactId>
+    <artifactId>virtualab-jsf-project</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
-    <name>virtualab-project</name>
+    <name>virtualab-jsf-project</name>
     <url>http://www.virtualab.com.br</url>
 
     <developers>
@@ -22,7 +22,7 @@
         <project.name>nome</project.name>
         <project.version>versao</project.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-	    <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <hibernate.version>3.6.1.Final</hibernate.version>
         <spring.version>3.0.6.RELEASE</spring.version>
         <jsf.version>2.1.3</jsf.version>
@@ -46,6 +46,6 @@
     </dependencies>
 
     <modules>
-        <module>virtualab</module>
+        <module>virtualab-jsf</module>
     </modules>
 </project>
